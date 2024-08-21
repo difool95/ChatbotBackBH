@@ -7,7 +7,7 @@ const deepgram = new Deepgram('0e4c7bd55c83ac72d8f16725e497569e89574f38')
 const axios = require('axios');
 const mime = require('mime-types');
 const path = require('path');
-const host = 'http://localhost:5000'
+const host = 'https://chatbotbackbh.onrender.com'
 /* GET home page. */
 router.post('/talk', function (req, res) {
   let language = req.body.language;
